@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cabañas</title>
+    <link rel="stylesheet" href="CSS/main.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <div>
+                <h2>Reservación de cabañas</h2>
+            </div>
+            <div>
+                <a href="" class="active">Reservar cabaña</a>
+                <a href="">Actualizar reservación</a>
+                <a href="">Ver reservaciones</a>
+                <a href="">Cancelar reservación</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Reservar cabaña</h1>
+        <hr>
+        <br>
+        <div class="flex">
+            <div>
+                <form action="" method="post">
+                    <label for="name">Ingrese el nombre de la cabaña</label>
+                    <input type="text" name="name" required>
+                    <label for="email">Ingrese el correo</label>
+                    <input type="text" name="email" required>
+                    <label for="age">Ingrese los años</label>
+                    <input type="text" name="age" required>
+                    <br>
+                    <button type="submit">Reservar</button>
+                </form>
+            </div>
+            <div>
+                <img src="https://th.bing.com/th/id/R.c360ef11c8c07af13571fc9527fb67e4?rik=E8y%2f4vkCRoIJ3g&pid=ImgRaw&r=0"
+                    alt="Cabaña1">
+            </div>
+        </div>
+    </div>
+
+    <div class="hola"></div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="JavaScript/index.js"></script>
 </body>
+
 </html>
