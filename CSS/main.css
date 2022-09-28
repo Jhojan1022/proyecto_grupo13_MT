@@ -21,6 +21,10 @@ nav a{
     border-radius: 3px;
 }
 
+nav a:hover{
+    background-color: #7A4B22;
+}
+
 h2{
     margin:10px 10px 15px 0px;
 }
@@ -66,4 +70,16 @@ button{
 
 .flex div{
     width: 50%;
+}
+
+.login{
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 50%;
+    height: 80vh;
+    margin: auto;
+    box-shadow: 0px 10px 0px 2000px rgba(0,0,0,0.75);
 }
